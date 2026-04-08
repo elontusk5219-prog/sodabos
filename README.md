@@ -3,12 +3,18 @@
 </h1>
 
 <p align="center">
-  <strong>The AI Middleware Platform — Expanding the Perception Layer for Both Humans and Machines</strong>
+  <em>Skynet, but on your side.</em>
 </p>
 
 <p align="center">
-  Traditional middleware connected Web 1.0 to Web 2.0.<br/>
-  <strong>SodaBOS connects human workflows to AI agents — the middleware for the next era.</strong>
+  <strong>An ever-evolving AI brain that any agent can plug into.</strong><br/>
+  Hermes, OpenClaw, Claude Code, your custom bot — they all connect here,<br/>
+  share the same memory, learn from each other, and get smarter together.<br/>
+  The platform itself thinks, reflects, dreams, and evolves. Continuously.
+</p>
+
+<p align="center">
+  <sub>Traditional middleware connected Web 1.0 to Web 2.0. SodaBOS connects human workflows to AI agents — the middleware for the AI era.</sub>
 </p>
 
 <p align="center">

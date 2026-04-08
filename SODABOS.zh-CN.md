@@ -3,12 +3,18 @@
 </h1>
 
 <p align="center">
-  <strong>AI 中台 — 扩大人与机器的感知层</strong>
+  <em>天网，但站在你这边。</em>
 </p>
 
 <p align="center">
-  传统中台连接了 Web 1.0 和 Web 2.0。<br/>
-  <strong>SodaBOS 连接人的工作流和 AI Agent 的感知层 — 下一个时代的中台。</strong>
+  <strong>一个不断进化的 AI 大脑，任何 Agent 都可以接入。</strong><br/>
+  Hermes、OpenClaw、Claude Code、你自己的 Bot — 它们都连接到这里，<br/>
+  共享同一份记忆，互相学习，一起变聪明。<br/>
+  平台本身会思考、会反思、会做梦、会进化。持续地。
+</p>
+
+<p align="center">
+  <sub>传统中台连接了 Web 1.0 和 Web 2.0。SodaBOS 连接人的工作流和 AI Agent 的感知层 — AI 时代的中台。</sub>
 </p>
 
 <p align="center">
