@@ -15,6 +15,7 @@
   <a href="#what-is-sodabos">What Is It</a> ·
   <a href="#see-it-in-action">Screenshots</a> ·
   <a href="#architecture">Architecture</a> ·
+  <a href="#sodabos-vs-agent-frameworks">vs. Agents</a> ·
   <a href="#make-it-yours">Make It Yours</a> ·
   <a href="#quick-start">Quick Start</a> ·
   <a href="#acknowledgments">Thanks</a>
@@ -235,6 +236,65 @@ All subsystems access memory through a **unified interface** — no race conditi
 | Search | FTS5 full-text search |
 | Agent Bridge | FastMCP SSE server |
 | Auth | JWT · bcrypt |
+
+---
+
+## SodaBOS vs. Agent Frameworks
+
+Most open-source AI projects are **agents** — they _are_ the brain. SodaBOS is not an agent. It's the **platform that agents plug into**. This is a fundamental architectural difference.
+
+```
+Agent frameworks (Hermes, OpenClaw, CrewAI, AutoGPT, …):
+  ┌──────────────────────┐
+  │  Agent               │   The agent IS the product.
+  │  ├── Memory          │   It thinks, acts, remembers.
+  │  ├── Tools           │   Humans interact through chat.
+  │  └── Reasoning loop  │   One agent per deployment.
+  └──────────────────────┘
+
+SodaBOS (AI Middleware):
+  ┌──────────────────────────────────────────┐
+  │  SodaBOS Platform                        │   The platform is the product.
+  │  ├── Persistent Memory & Methodology     │   Multiple agents plug in via MCP.
+  │  ├── Cognitive Loop (9 phases)           │   Humans work through a full GUI.
+  │  ├── Dreaming System                     │   Everyone shares the same brain.
+  │  ├── Roundtable Discussions              │
+  │  ├── GUI ←→ MCP dual interface           │
+  │  └── Knowledge, Lessons, Checkpoints     │
+  │                                          │
+  │  ↕ MCP          ↕ MCP         ↕ GUI      │
+  │  Claude Code    Cursor       Human PM    │
+  │  Custom Bot     Hermes       Team Lead   │
+  └──────────────────────────────────────────┘
+```
+
+### Comparison Matrix
+
+| Capability | SodaBOS | Hermes Agent | OpenClaw | CrewAI | AutoGPT | LangGraph |
+|---|---|---|---|---|---|---|
+| **What it is** | Platform / middleware | Autonomous agent | Daemon agent | Multi-agent orchestrator | Task decomposer | Graph-based orchestration |
+| **Multiple agents share state** | ✅ Core design | ❌ Single agent | ❌ Single agent | ⚠️ Within one crew | ❌ | ⚠️ Within one graph |
+| **Human GUI (not just chat)** | ✅ Full SaaS UI | ❌ Chat channels | ❌ Chat channels | ⚠️ Studio (config) | ❌ | ❌ |
+| **MCP server (agents plug in)** | ✅ 25+ tools | ✅ Can serve MCP | ✅ Connects to MCP | ❌ | ❌ | ❌ |
+| **Persistent memory** | ✅ Unified store | ✅ SQLite | ✅ Markdown files | ❌ | ⚠️ Vector DB | ✅ |
+| **Dreaming / reflection** | ✅ 4-phase system | ⚠️ Self-improving | ❌ | ❌ | ❌ | ❌ |
+| **Contradiction detection** | ✅ Cross-checks beliefs | ❌ | ❌ | ❌ | ❌ | ❌ |
+| **Methodology extraction** | ✅ Reusable principles | ❌ | ❌ | ❌ | ❌ | ❌ |
+| **Proactive questioning** | ✅ Posts to roundtable | ❌ | ❌ | ❌ | ❌ | ❌ |
+| **Domain-agnostic** | ✅ Swap entity layer | ⚠️ General-purpose | ⚠️ General-purpose | ⚠️ Task-specific | ⚠️ Task-specific | ✅ Low-level |
+
+### They're not competitors — they're clients
+
+Hermes Agent and OpenClaw can **connect to SodaBOS via MCP** as clients. CrewAI crews can call SodaBOS tools. LangGraph nodes can query SodaBOS knowledge. The relationship is:
+
+```
+Hermes Agent  ──MCP──→  SodaBOS  ←──GUI──  Human PM
+OpenClaw      ──MCP──→  (shared memory,    ←──GUI──  Team Lead
+Claude Code   ──MCP──→   methodology,      ←──GUI──  Designer
+Custom Bot    ──API──→   knowledge)         ←──GUI──  Analyst
+```
+
+SodaBOS doesn't replace your agent — it gives your agent a **business brain** to think with, a **team** to collaborate with, and a **memory** that outlasts any single session.
 
 ---
 
