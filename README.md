@@ -3,14 +3,15 @@
 </h1>
 
 <p align="center">
-  <em>Skynet, but on your side.</em>
+  <em>Stop treating AI as your assistant. Start building your business around it.</em>
 </p>
 
 <p align="center">
-  <strong>An ever-evolving AI brain that any agent can plug into.</strong><br/>
-  Hermes, OpenClaw, Claude Code, your custom bot — they all connect here,<br/>
-  share the same memory, learn from each other, and get smarter together.<br/>
-  The platform itself thinks, reflects, dreams, and evolves. Continuously.
+  Agents underperform for two reasons: <strong>their perception layer is too small</strong> (they only see a chat window),<br/>
+  and we use them wrong — as helpers sitting next to us, instead of <strong>the center we all collaborate around</strong>.<br/>
+  SodaBOS fixes both. It gives every agent — Hermes, OpenClaw, Claude Code, yours —<br/>
+  a shared brain with full business context. And it gives your team a seat at the same table.<br/>
+  <strong>The platform thinks, dreams, learns, and evolves. Your agents and your people grow together.</strong>
 </p>
 
 <p align="center">
@@ -37,7 +38,13 @@
 
 **SodaBOS is an AI middleware platform** — a shared cognitive layer that sits between your team and your AI agents.
 
-Think about what traditional middleware platforms did: they connected isolated systems (databases, frontends, services) into a unified business substrate. SodaBOS does the same thing for the AI era — it connects **human workflows** and **AI agent capabilities** into a single operating surface where both are equal participants.
+### Why agents don't work (yet)
+
+**Problem 1: The perception layer is too small.** Today's agents see a chat window and maybe a few tool calls. They don't see your project history, your team's methodology, past mistakes, ongoing debates, or the business context behind a request. An agent with no context makes shallow decisions — so you babysit it, and it becomes just a fancy autocomplete.
+
+**Problem 2: We're using them backwards.** Everyone treats AI as an assistant — a coworker sitting next to you, helping with your tasks. But in real business, the better architecture is the opposite: **the AI is the center, and the team collaborates around it.** The AI holds the memory, the methodology, the context. Humans and other agents plug in, contribute their expertise, and the whole system evolves together.
+
+SodaBOS was built from this insight. It's not another agent — it's the **shared brain** that makes every agent (and every human) dramatically more effective.
 
 ```
 The Evolution of Middleware:
