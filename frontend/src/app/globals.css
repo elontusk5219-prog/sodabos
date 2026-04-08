@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Base ─────────────────────────────────────── */
+body {
+  background-color: #FAFAF8;
+  color: #1A1A1A;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+::selection {
+  background: #EEF1FB;
+  color: #1E2F6B;
+}
+
+/* ── Component Classes ────────────────────────── */
+@layer components {
+  /* Card — clean white surface with subtle border */
+  .card {
+    @apply bg-surface rounded-lg border border-border;
+  }
+  .card-hover {
+    @apply bg-surface rounded-lg border border-border transition-shadow duration-150;
+  }
+  .card-hover:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    border-color: #DDD9D3;
+  }
+
+  /* Button system */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-4 py-2
+           text-sm font-medium text-white rounded-md
+           transition-colors duration-150;
+    background-color: #354DAA;
+  }
+  .btn-primary:hover {
+    background-color: #2A3F8E;
+  }
+  .btn-primary:active {
+    background-color: #B05535;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 px-4 py-2
+           text-sm font-medium rounded-md border
+           transition-colors duration-150;
+    color: #1A1A1A;
+    border-color: #E8E5E0;
+    background-color: #FFFFFF;
+  }
+  .btn-secondary:hover {
+    background-color: #F5F3EF;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 px-3 py-1.5
+           text-sm font-medium rounded-md
+           transition-colors duration-150;
+    color: #6B6B6B;
+  }
+  .btn-ghost:hover {
+    background-color: #F5F3EF;
+    color: #1A1A1A;
+  }
+
+  /* Badge */
+  .badge {
+    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-sm text-xs font-medium;
+  }
+
+  /* Loading skeleton */
+  .skeleton {
+    @apply rounded-md;
+    background-color: #F0EDE8;
+    animation: pulse-subtle 1.5s ease-in-out infinite;
+  }
+
+  /* Section label */
+  .section-label {
+    @apply text-xs font-semibold uppercase tracking-wider;
+    color: #9B9B9B;
+  }
+
+  /* Input */
+  .input {
+    @apply w-full px-3 py-2 text-sm rounded-md border transition-colors duration-150 outline-none;
+    border-color: #E8E5E0;
+    background-color: #FAFAF8;
+  }
+  .input:focus {
+    border-color: #354DAA;
+    box-shadow: 0 0 0 2px #EEF1FB;
+  }
+  .input::placeholder {
+    color: #9B9B9B;
+  }
+}
+
+/* ── Scrollbar ─────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #E8E5E0;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #DDD9D3;
+}
+
+/* ── Page Transitions ──────────────────────────── */
+.page-enter {
+  animation: fade-in 0.2s ease-out;
+}
+
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
