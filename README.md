@@ -162,6 +162,38 @@ by accumulated team judgment                    ↓
 
 ## Architecture
 
+### The Evolution of Middleware
+
+Traditional middleware connected databases to frontends. SodaBOS connects human workflows to AI perception — the middleware for the AI era.
+
+<p align="center">
+  <img src="docs/images/arch-middleware.png" alt="Middleware Evolution — Traditional vs SodaBOS" width="100%" />
+</p>
+
+### 9-Phase Cognitive Loop
+
+Each cycle: perceive → think → decide → act → reflect. When idle, dream. Prevention rules and methodology feed back into future cycles — the system learns every iteration.
+
+<p align="center">
+  <img src="docs/images/arch-cognitive-loop.png" alt="9-Phase Cognitive Loop" width="100%" />
+</p>
+
+### The Dreaming System
+
+When there are no new signals, the engine doesn't idle — it dreams. Compresses experience into reusable intelligence.
+
+<p align="center">
+  <img src="docs/images/arch-dreaming.png" alt="Dreaming System — 4 Phase Pipeline" width="100%" />
+</p>
+
+### Dual Interface Architecture
+
+Humans and AI agents are equal participants on the same cognitive substrate. Neither is "calling" the other.
+
+<p align="center">
+  <img src="docs/images/arch-dual-interface.png" alt="Dual Interface Architecture" width="100%" />
+</p>
+
 ### Memory System
 
 ```

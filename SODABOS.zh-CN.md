@@ -162,6 +162,38 @@ Agent 提出方案 → 人类审批/拒绝 → 记忆存储信号
 
 ## 架构
 
+### 中台的演进
+
+传统中台连接数据库与前端。SodaBOS 连接人类工作流与 AI 感知层 — AI 时代的中台。
+
+<p align="center">
+  <img src="docs/images/arch-middleware-zh.png" alt="中台演进 — 传统 vs SodaBOS" width="100%" />
+</p>
+
+### 9 阶段认知循环
+
+每个周期：感知 → 思考 → 决策 → 执行 → 反思。空闲时做梦。预防规则和方法论回馈到未来的周期 — 系统每一轮都在进化。
+
+<p align="center">
+  <img src="docs/images/arch-cognitive-loop-zh.png" alt="9阶段认知循环" width="100%" />
+</p>
+
+### 做梦系统
+
+没有新信号时引擎不会闲着 — 它开始做梦。将经验压缩为可复用的智慧。
+
+<p align="center">
+  <img src="docs/images/arch-dreaming-zh.png" alt="做梦系统 — 4阶段管线" width="100%" />
+</p>
+
+### 双接口架构
+
+人类和 AI 智能体是同一认知基底上的平等参与者。没有谁在"调用"谁。
+
+<p align="center">
+  <img src="docs/images/arch-dual-interface-zh.png" alt="双接口架构" width="100%" />
+</p>
+
 ### 记忆系统
 
 ```
