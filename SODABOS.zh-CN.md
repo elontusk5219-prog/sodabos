@@ -222,7 +222,7 @@ AgentMemory（唯一数据源）
 
 我们提供**深度定制** — 不只是搭建，而是完整的领域分析、认知循环设计、Prompt 工程和持续调优：
 
-📧 **hello@ninetyculture.com** · GitHub [@ninetyculture](https://github.com/ninetyculture) · 微信 `NinetyCulture`
+📧 **elontusk5219@gmail.com** · GitHub [@elontusk5219-prog](https://github.com/elontusk5219-prog) · 小红书 `@Magnolia施蔚熙` / `@imsoda` · 微信 `HumanFromEarth`
 
 ---
 
@@ -305,5 +305,5 @@ python ../backend/mcp_sse_server.py
   扩大感知。连接人与 Agent。会思考。会学习。会做梦。<br/><br/>
   <a href="https://github.com/elontusk5219-prog/sodabos">⭐ Star us on GitHub</a> ·
   <a href="./README.md">English</a> ·
-  <a href="mailto:hello@ninetyculture.com">联系我们</a>
+  <a href="mailto:elontusk5219@gmail.com">联系我们</a>
 </p>

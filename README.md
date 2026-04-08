@@ -81,7 +81,7 @@ Neither side is "calling" the other. Both are participants in a system that **pe
 The core dashboard. Cognitive engine status, MCP connections, roundtable preview, deployed projects with real-time analytics. This is what the PM team sees.
 
 <p align="center">
-  <img src="docs/images/dashboard.png" alt="SodaBOS Dashboard — Product Discovery" width="100%" />
+  <img src="docs/images/dashboard-en.png" alt="SodaBOS Dashboard — Product Discovery" width="100%" />
 </p>
 
 ### Roundtable — Where Humans and AI Collaborate
@@ -89,7 +89,7 @@ The core dashboard. Cognitive engine status, MCP connections, roundtable preview
 Same room, same conversation. Human PM, AI cognitive engine, Claude Code (via MCP), and a data scraper bot — all as equal participants. The AI references methodology, searches institutional memory, and proposes actions. Humans approve, reject, or redirect.
 
 <p align="center">
-  <img src="docs/images/roundtable.png" alt="SodaBOS Roundtable — Multi-party Discussion" width="100%" />
+  <img src="docs/images/roundtable-en.png" alt="SodaBOS Roundtable — Multi-party Discussion" width="100%" />
 </p>
 
 ### Veterinary Clinic — SodaBOS Reshaped for Healthcare
@@ -97,7 +97,7 @@ Same room, same conversation. Human PM, AI cognitive engine, Claude Code (via MC
 **Same framework, completely different business.** Entities become patients, the cognitive loop does triage, IoT sensors feed real-time vitals, the dreaming system reviews cases at night and extracts diagnostic methodology. The vet sees the AI's reasoning and confirms or overrides.
 
 <p align="center">
-  <img src="docs/images/vet-clinic.png" alt="SodaBOS — Veterinary Clinic" width="100%" />
+  <img src="docs/images/vet-clinic-en.png" alt="SodaBOS — Veterinary Clinic" width="100%" />
 </p>
 
 ### Law Firm — SodaBOS Reshaped for Legal
@@ -105,7 +105,7 @@ Same room, same conversation. Human PM, AI cognitive engine, Claude Code (via MC
 Case analysis agent matches precedents in real-time. A court document scraper feeds new rulings into the knowledge base. Win probability updates live as new evidence appears. The dreaming system reviews past cases, extracts litigation methodology, and flags contradictions in legal strategy.
 
 <p align="center">
-  <img src="docs/images/law-firm.png" alt="SodaBOS — Law Firm" width="100%" />
+  <img src="docs/images/law-firm-en.png" alt="SodaBOS — Law Firm" width="100%" />
 </p>
 
 ---
@@ -224,7 +224,7 @@ All subsystems access memory through a **unified interface** — no race conditi
 
 We do **deep customization** — not just setup, but full domain analysis, cognitive loop design, prompt engineering, and ongoing tuning:
 
-📧 **hello@ninetyculture.com** · GitHub [@ninetyculture](https://github.com/ninetyculture) · WeChat `NinetyCulture`
+📧 **elontusk5219@gmail.com** · GitHub [@elontusk5219-prog](https://github.com/elontusk5219-prog) · 小红书 `@Magnolia施蔚熙` / `@imsoda` · WeChat `HumanFromEarth`
 
 ---
 
@@ -338,5 +338,5 @@ requests.post(f"{BASE}/roundtable/rooms/1/messages", headers=headers,
   Expands perception. Connects humans and agents. Thinks. Learns. Dreams.<br/><br/>
   <a href="https://github.com/elontusk5219-prog/sodabos">⭐ Star us on GitHub</a> ·
   <a href="./SODABOS.zh-CN.md">中文文档</a> ·
-  <a href="mailto:hello@ninetyculture.com">Contact</a>
+  <a href="mailto:elontusk5219@gmail.com">Contact</a>
 </p>
